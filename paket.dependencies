@@ -1,0 +1,9 @@
+source https://nuget.org/api/v2
+
+nuget FSharp.Core ~> 4 redirects: force
+
+group Test
+	source https://nuget.org/api/v2
+
+	nuget NUnit 2.6.4
+	nuget FsCheck
